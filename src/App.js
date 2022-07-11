@@ -23,12 +23,19 @@ function App() {
       <button onClick={() => decCount(2)}>Decrement 2</button>
       <button onClick={() => decCount(4)}>Decrement 4</button>
 
-      <br />
+      <br /><br />
       {/* You can pass the required props as mentioned in the questions to
       check if the components are working properly */}
-      <Button />
-      <br />
-      <Pagination />
+      <Button colorScheme="yellow" variant="solid" size="sm">Click Me</Button>
+      <br /><br />
+      <Button colorScheme="red" variant="outline" size="md">Click Me</Button>
+      <br /><br />
+      <Button colorScheme="green" variant="ghost" size="lg">Click Me</Button>
+      <br /><br />
+      <Button colorScheme="orange" variant="outline" size="xl">Click Me</Button>
+      <Pagination /><br /><br />
+      <Button colorScheme="" variant="outline" size="">Click Me</Button>
+      <Pagination /><br /><br />
     </div>
   );
 }

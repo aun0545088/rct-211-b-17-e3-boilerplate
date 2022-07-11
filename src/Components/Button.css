@@ -1,0 +1,45 @@
+.button {
+  color: white;
+  text-align: center;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+}
+.solid {
+  border: 1px solid black;
+}
+.ghost {
+  border: none;
+}
+.outline {
+  border: 1px dashed black;
+}
+.sm {
+  width: 69px;
+  height: 32px;
+  font-size: 14px;
+}
+.md {
+  width: 83px;
+  height: 40px;
+  font-size: 16px;
+}
+.lg {
+  width: 106px;
+  height: 48px;
+  font-size: 18px;
+}
+.xl {
+  width: 150px;
+  height: 58px;
+  font-size: 25px;
+}
